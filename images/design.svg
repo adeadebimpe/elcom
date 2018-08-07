@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="583px" height="117px" viewBox="0 0 583 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="SIGN-UP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Elocum-Post-Shift---Sign-Up-1-B---version-2" transform="translate(-288.000000, -622.000000)">
+            <g id="Sign-Up" transform="translate(288.000000, 199.000000)">
+                <g id="Path-2">
+                    <g id="Group-10" transform="translate(-26.000000, 424.000000)">
+                        <rect id="Rectangle-3" stroke="#2574F6" opacity="0.199553571" x="300" y="31.5652174" width="35" height="12.626087" rx="6.31304348"></rect>
+                        <rect id="Rectangle-3" stroke="#2574F6" opacity="0.199553571" x="167" y="45.2434783" width="20" height="7.36521739" rx="3.6826087"></rect>
+                        <rect id="Rectangle-3" stroke="#2574F6" opacity="0.199553571" x="18" y="0" width="35" height="12.626087" rx="6.31304348"></rect>
+                        <path d="M0.84375,70.6682745 C33.8932292,60.0588542 68.7552083,54.754144 105.429688,54.754144 C160.441406,54.754144 206.382812,88.7607337 279.03125,88.7607337 C351.679688,88.7607337 385.515625,91.7117527 442.992188,91.7117527 C500.46875,91.7117527 594.203125,120.506793 666.570312,120.506793 C714.815104,120.506793 492.90625,120.506793 0.84375,120.506793 L0.84375,70.6682745 Z" id="Path-22" fill="#D9E7FE"></path>
+                        <path d="M26.1051069,81.4263994 C29.0152729,76.2435824 32.2039762,73.6521739 35.6712168,73.6521739 C39.1384574,73.6521739 40.0624226,80.6858469 38.4431124,94.7531929 C39.9336366,85.8686639 42.7245007,81.4263994 46.8157049,81.4263994 C50.906909,81.4263994 52.2322076,85.7452385 50.7916006,94.3829167 C53.3543436,89.7132343 56.6413836,87.3783931 60.6527204,87.3783931 C64.6640573,87.3783931 64.6640573,91.9537995 60.6527204,101.104612 C64.9825283,97.5142457 68.3918651,96.6166541 70.8807309,98.4118374 C73.3695966,100.207021 72.6522882,103.284253 68.7288054,107.643533 C77.0699501,104.157159 81.2405224,104.157159 81.2405224,107.643533 C81.2405224,111.129907 79.0316914,113.8668 74.6140295,115.854212 L24.8204462,115.854212 L26.1051069,81.4263994 Z" id="Path-23" fill="#2574F6"></path>
+                        <g id="Group-9" transform="translate(149.000000, 32.617391)">
+                            <ellipse id="Oval" fill="#D8D8D8" style="mix-blend-mode: multiply;" cx="15" cy="49.4521739" rx="12" ry="3.15652174"></ellipse>
+                            <g id="Group-8">
+                                <ellipse id="Oval-15" fill="#FFC25E" cx="14" cy="19.9913043" rx="14" ry="19.9913043"></ellipse>
+                                <path d="M14.4042969,11.1752378 L14.4042969,50.2207979" id="Path-3" stroke="#2D3540" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M7,13.6782609 L14.2172852,20.0370287" id="Path-4" stroke="#2D3540" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M7,24.2 L14.0794778,30.0513782" id="Path-4-Copy" stroke="#2D3540" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M15,19.9913043 L20.4972704,24.5349457" id="Path-4" stroke="#2D3540" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.748635, 22.263125) scale(-1, 1) translate(-17.748635, -22.263125) "></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-3" transform="translate(441.500000, 87.100000) scale(-1, 1) translate(-441.500000, -87.100000) translate(435.000000, 72.600000)">
+                            <ellipse id="Oval" fill="#D8D8D8" style="mix-blend-mode: multiply;" cx="6.96428571" cy="26.8935652" rx="5.57142857" ry="1.51513043"></ellipse>
+                            <g id="Group-8">
+                                <path d="M6.5,19.1916522 C10.0898509,19.1916522 13,18.4404997 13,13.1408713 C13,7.84124285 9.75,0 6.5,0 C3.25,0 0,7.84124285 0,13.1408713 C0,18.4404997 2.91014913,19.1916522 6.5,19.1916522 Z" id="Oval-15" fill="#FFC25E"></path>
+                                <path d="M6.68770926,8.52063587 L6.68770926,27.2625047" id="Path-3" stroke="#2D3540" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M3.25,9.72208696 L6.60088239,12.7742955" id="Path-4" stroke="#2D3540" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M3.25,13.7203478 L6.5369004,16.5290094" id="Path-4-Copy" stroke="#2D3540" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M6.96428571,12.7523478 L9.51658982,14.9332957" id="Path-4" stroke="#2D3540" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(8.240438, 13.842822) scale(-1, 1) translate(-8.240438, -13.842822) "></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-4" transform="translate(517.000000, 98.830435) scale(-1, 1) translate(-517.000000, -98.830435) translate(512.000000, 87.330435)">
+                            <ellipse id="Oval" fill="#D8D8D8" style="mix-blend-mode: multiply;" cx="5.5" cy="21.0434783" rx="4.5" ry="1.05217391"></ellipse>
+                            <g id="Group-8">
+                                <path d="M5,14.7628094 C7.76142375,14.7628094 10,14.1849997 10,10.1083625 C10,6.03172527 7.5,0 5,0 C2.5,0 0,6.03172527 0,10.1083625 C0,14.1849997 2.23857625,14.7628094 5,14.7628094 Z" id="Oval-15" fill="#FFC25E"></path>
+                                <path d="M5.14439174,6.55433528 L5.14439174,20.9711575" id="Path-3" stroke="#2D3540" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M2.5,7.47852843 L5.07760184,9.82638117" id="Path-4" stroke="#2D3540" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M2.5,10.5541137 L5.02838492,12.7146226" id="Path-4-Copy" stroke="#2D3540" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M5.35714286,9.80949833 L7.32045371,11.4871505" id="Path-4" stroke="#2D3540" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(6.338798, 10.648324) scale(-1, 1) translate(-6.338798, -10.648324) "></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy" transform="translate(43.000000, 29.460870)">
+                            <ellipse id="Oval" fill="#D8D8D8" style="mix-blend-mode: multiply;" cx="15" cy="49.4521739" rx="12" ry="3.15652174"></ellipse>
+                            <g id="Group-8">
+                                <ellipse id="Oval-15" fill="#2574F6" cx="14" cy="19.9913043" rx="14" ry="19.9913043"></ellipse>
+                                <path d="M14.4042969,11.1752378 L14.4042969,50.2207979" id="Path-3" stroke="#2D3540" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M7,18.9391304 L14.2172852,25.2978983" id="Path-4" stroke="#2D3540" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M15,24.2 L22.0794778,30.0513782" id="Path-4-Copy" stroke="#2D3540" stroke-linecap="round" stroke-linejoin="round" transform="translate(18.539739, 27.125689) scale(-1, 1) translate(-18.539739, -27.125689) "></path>
+                                <path d="M14.6687012,13.6782609 C15.5244325,14.9599317 16.2801144,15.8533548 16.9357469,16.3585301 C17.5913795,16.8637053 18.778554,17.4672839 20.4972704,18.1692659" id="Path-4" stroke="#2D3540" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.582986, 15.923763) scale(-1, 1) translate(-17.582986, -15.923763) "></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-2" transform="translate(318.000000, 72.600000)">
+                            <ellipse id="Oval" fill="#D8D8D8" style="mix-blend-mode: multiply;" cx="9.5" cy="29.4608696" rx="7.5" ry="2.10434783"></ellipse>
+                            <g id="Group-8">
+                                <ellipse id="Oval-15" fill="#2574F6" cx="8.5" cy="12.0780797" rx="8.5" ry="12.0780797"></ellipse>
+                                <path d="M8.74546596,6.75170615 L8.74546596,30.3417321" id="Path-3" stroke="#2D3540" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M4.25,8.26394928 L8.63192313,12.1057048" id="Path-4" stroke="#2D3540" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M4.25,14.6208333 L8.54825437,18.156041" id="Path-4-Copy" stroke="#2D3540" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M9.10714286,12.0780797 L12.4447713,14.8231964" id="Path-4" stroke="#2D3540" stroke-linecap="round" stroke-linejoin="round" transform="translate(10.775957, 13.450638) scale(-1, 1) translate(-10.775957, -13.450638) "></path>
+                            </g>
+                        </g>
+                        <path d="M379.254498,96.6814605 C379.87569,93.9546897 381.299081,92.5913043 383.524669,92.5913043 C387.178478,92.5913043 388.776136,95.4519194 388.317643,101.17315 C390.662707,96.2903613 393.508265,94.4606581 396.854319,95.6840398 C400.200372,96.9074215 400.909701,100.300427 398.982305,105.863055 C400.313032,103.177563 402.60628,101.834817 405.862048,101.834817 C409.117816,101.834817 409.117816,104.915987 405.862048,111.078329 L373.643135,111.078329 L354.348765,111.078329 C351.260221,106.504484 350.488085,103.202757 352.032357,101.17315 C353.576629,99.143542 356.150939,99.9576154 359.755287,103.61537 C359.08482,96.2659928 360.576491,92.5913043 364.230299,92.5913043 C367.884108,92.5913043 369.481766,95.4519194 369.023273,101.17315 C371.368337,96.2903613 374.213895,94.4606581 377.559949,95.6840398 C378.230778,95.9293081 378.795628,96.2617816 379.254498,96.6814605 Z" id="Combined-Shape" fill="#2574F6"></path>
+                        <path d="M212,108.973981 C212,104.848171 213.556966,102.11019 216.670898,100.760037 C219.784831,99.4098845 223.682943,100.084961 228.365234,102.785267 C227.016927,96.6907411 227.857747,93.6434783 230.887695,93.6434783 C233.917643,93.6434783 236.428711,96.198562 238.420898,101.30873 C237.739258,97.9515002 240.183919,96.2728855 245.754883,96.2728855 C253.591434,96.2728855 262.533203,108.973981 262.915039,108.973981 C263.169596,108.973981 259.80013,108.973981 252.806641,108.973981 L212,108.973981 Z" id="Path-5-Copy" fill="#2574F6"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

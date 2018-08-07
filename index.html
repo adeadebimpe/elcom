@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elocum 24</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="smart_wizard.css">
+    <link rel="stylesheet" href="smart_wizard_theme_dots.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/elocum.png" alt="Elocum">
+                </a>
+                <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Already have an account?
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary btn-small" href="#" role="button">Sign In</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <div class="container">
+            <div id="smartwizard" class="sw-theme-dots">
+                <ul class="nav nav-tabs step-anchor">
+                    <li>
+                        <a href="#step-1">Step 1
+                            <br />
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#step-2">Step 2
+                            <br />
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#step-3">Step 3
+                            <br />
+
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div>
+                    <div id="step-1" class="">
+                        <div class="step">
+                            <div class="signup-form">
+                                <h4>Easy Signup</h4>
+                                <section class="signup">
+                                    <form action="" id="#form1" class="floating-form">
+                                        <div class="form-row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                        
+                                                    <input type="text" class="form-control"  aria-describedby="helpId" placeholder="First Name">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                            
+                                                    <input type="text" class="form-control" aria-describedby="helpId" placeholder="Surname">
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="form-group w-25">
+                                            
+                                            <input type="text" class="form-control" aria-describedby="helpId" placeholder="GMC Number">
+
+                                        </div>
+                                        <div class="form-group w-50">
+                                        
+                                            <div class="input-group">
+
+                                                <input type="email" name="" id="ignored" class="form-control" placeholder="Email Address" aria-describedby="helpId">
+                                                <div class="input-group-append">
+
+                                                    <div class="dropdown">
+                                                        <button class="btn btn-light dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            @gmail.com
+                                                        </button>
+                                                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                                                            <a class="dropdown-item" href="#">@yahoo.co.uk</a>
+                                                            <a class="dropdown-item" href="#">@yahoo.com</a>
+                                                            <a class="dropdown-item">@hotmail.com</a>
+                                                            <a class="dropdown-item">@hotmail.co.uk</a>
+                                                            <a class="dropdown-item" href="#">@doctors.org.uk</a>
+                                                            <a class="dropdown-item" href="#">@nhs.net</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="form-group w-50">
+                                           
+                                            <input type="password" class="form-control" aria-describedby="helpId" placeholder="Password">
+
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    
+                                                    <input type="text" class="form-control"  aria-describedby="helpId" placeholder="Password Hint">
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                               
+                                                    <input type="text" class="form-control" placeholder="Add Captcha" aria-describedby="helpId">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn-primary float-right sw-btn-next">Submit</button>
+                                    </form>
+                                    <div class="design-bottom">
+                                        <img src="images/design.svg" alt="Design Bottom">
+                                    </div>
+                                </section>
+
+                                <section class="email-form">
+
+                                    <div id="accordion">
+                                        <div class="card">
+                                            <div class="card-header" id="headingOne">
+                                                <h5 class="mb-0 ">
+                                                    <button class="btn btn-link  accordion-toggle" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                        We have sent an email to you
+                                                    </button>
+                                                </h5>
+                                            </div>
+
+                                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                <div class="card-body">
+
+                                                    <div class="top">
+                                                        <p>
+                                                            <a href="#" class="mr-2">John_Smith@hotmail.com</a> Please click on the link we sent you</p>
+                                                        <p>If you didn't recieve link after 3 minutes.
+                                                            <a href="#" class="resend-link ml-2"> Resend Link</a>
+                                                        </p>
+                                                    </div>
+                                                    <hr>
+                                                    <form action="">
+                                                        <div class="form-group">
+                                                            <label for="">If you want to change your email</label>
+                                                            <input type="email" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+
+                                                        </div>
+                                                        <div class="float-right">
+                                                            <button type="button" class="btn btn-outline-primary">I will check Later</button>
+                                                            <button type="button" class="btn btn-primary sw-btn-next">Save</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </section>
+                                <section class="benefits">
+
+                                    <div id="accordion">
+                                        <div class="card">
+                                            <div class="card-header" id="headingOne">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link  accordion-toggle" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                                                        Benefits of Signing Up
+                                                    </button>
+                                                </h5>
+                                            </div>
+
+                                            <div id="collapseTwo" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <ul>
+                                                        <li>20% better pay rates</li>
+                                                        <li>Work when and where you like</li>
+                                                        <li>Automated admin and pension</li>
+                                                        <li>Just Browse, click and play</li>
+                                                        <li>Free Locum business and tax guide</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="step-2" class="">
+                        <div class="step">
+                            <div class="step2">
+
+                                <h4>Easy Signup</h4>
+
+                                <div class="alert alert-warning email-notification" role="alert">
+
+                                    <img src="images/email-icon.svg" alt="Email Icon">
+
+                                    <div class="alert-text ml-5">
+                                        <h5>Remember to Click on Activation Email</h5>
+                                        <small>it is an important security step</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <section class="signup-step2">
+                                <div class="section-header">
+                                    <h5>We made this registration as short as possible</h5>
+                                    <p>We know it is boring! However the most complete profiles get snapped fast</p>
+
+                                </div>
+                                <hr>
+                                <form action="">
+                                    <div class="row align-items-end profile">
+                                        <div class="col-md-4">
+                                            <div class="profile-picture">
+                                                <img src="images/avatar.png" alt="Avatar">
+                                                <div class="profile-icons ml-3">
+                                                    <img src="images/reload.png" alt="Reload">
+                                                    <img src="images/upload-icon.svg" alt="Upload">
+                                                    <img src="images/video-icon.svg" alt="Video">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <p>Gender</p>
+                                            <div class="form-check form-check-inline">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> Male
+                                                </label>
+                                                <label class="form-check-label ml-2">
+                                                    <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> Female
+                                                </label>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 mobile-number">
+                                            <div class="form-group">
+                                                <label for="">Mobile Number</label>
+                                                <input type="text" class="form-control" aria-describedby="helpId" placeholder="Mobile Number">
+                                                <small id="helpId" class="form-text">only shared with surgery after booking</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Description</label>
+                                        <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Describe your work ethic in one line e.g. hardworking and conscientious">
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Postal Code</label>
+                                        <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Post Code">
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Brief GP Work History</label>
+                                        <textarea class="form-control" name="" id="" rows="3" placeholder="eg. I have just qualified and worked as a salaried doctor for 1year. I have started locuming in GP surgeries and out of hours in the last 6 months"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Qualifications</label>
+                                        <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="eg. MBBS MRCPG">
+
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked> Substance misuse qualifications
+                                        </label>
+                                    </div>
+                                    <button type="button" class="btn btn-primary float-right sw-btn-next">Save & Continue</button>
+                                </form>
+                                <div class="step-bottom mt-5">
+                                    <img src="images/design2.svg" alt="Design Bottom" width="100%">
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div id="step-3" class="">
+                        <div class="step">
+                            <div class="step2">
+
+                                <h4>Easy Signup</h4>
+
+                                <section class="signup-step3">
+
+                                   <div class="container">
+                                        <form action="">
+                                                <label>System you like to use</label>
+        
+                                                <table class="table w-50">
+                                                    <thead>
+                                                        <tr>
+                                                            <th></th>
+                                                            <th>Can Use</th>
+                                                            <th>Require Training</th>
+                                                            <th>Don't want to use</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td scope="row">Systome</td>
+                                                            <td>
+                                                                <div class="form-check  squaredTwo">
+                                                                    <label class="form-check-label">
+                                                                        <input class="form-check-input" name="" id="" type="checkbox" value="checkedValue" aria-label="Text for screen reader">
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="form-check  squaredTwo">
+                                                                    <label class="form-check-label">
+                                                                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+        
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="form-check  squaredTwo">
+                                                                    <label class="form-check-label">
+                                                                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+        
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+        
+                                                        </tr>
+                                                        <tr>
+                                                            <td scope="row">Vision</td>
+                                                            <td>
+                                                                <div class="form-check  squaredTwo">
+                                                                    <label class="form-check-label">
+                                                                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+        
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="form-check  squaredTwo">
+                                                                    <label class="form-check-label">
+                                                                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+        
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="form-check  squaredTwo">
+                                                                    <label class="form-check-label">
+                                                                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+        
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+        
+                                                        </tr>
+                                                        <tr>
+                                                            <td scope="row">Adastra</td>
+                                                            <td>
+                                                                <div class="form-check  squaredTwo">
+                                                                    <label class="form-check-label">
+                                                                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+        
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="form-check  squaredTwo">
+                                                                    <label class="form-check-label">
+                                                                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+        
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="form-check  squaredTwo">
+                                                                    <label class="form-check-label">
+                                                                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+        
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+        
+                                                        </tr>
+                                                        <tr>
+                                                            <td scope="row">Docman</td>
+                                                            <td>
+                                                                <div class="form-check  squaredTwo">
+                                                                    <label class="form-check-label">
+                                                                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+        
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="form-check  squaredTwo">
+                                                                    <label class="form-check-label">
+                                                                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+        
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="form-check  squaredTwo">
+                                                                    <label class="form-check-label">
+                                                                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+        
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+        
+                                                        </tr>
+                                                        <tr>
+                                                            <td scope="row">Emis</td>
+                                                            <td>
+                                                                <div class="form-check  squaredTwo">
+                                                                    <label class="form-check-label">
+                                                                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+        
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="form-check  squaredTwo">
+                                                                    <label class="form-check-label">
+                                                                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+        
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="form-check  squaredTwo">
+                                                                    <label class="form-check-label">
+                                                                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+        
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+        
+                                                        </tr>
+        
+        
+                                                    </tbody>
+                                                </table>
+                                                <div class="form-group w-50">
+                                                    <label for="">Add Languages</label>
+                                                    
+                                                      <input type="search" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Search Languages">
+                                                     
+                                                   
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="provide">
+                                                            <p>Do you Provide?</p>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" > Home Visit
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue"> Script/Admin
+                                                                        </label>
+                                                                    </div>
+        
+                                                                </div>
+                                                                <div class="col-md-6">
+        
+                                                                </div>
+        
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="smart-card">
+                                                            <p>Have you got a Smart Card?</p>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label">
+                                                                    <input class="form-check-input checkbox_check" type="checkbox" name="" id="" value="checkedValue"> Yes
+                                                                    <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> No
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-group smart-card-form" hidden>
+                                                              
+                                                              <input type="text"
+                                                                class="form-control" name="" id="" aria-describedby="helpId" placeholder="Smart Card Number">
+                                                            
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="upload-document ">
+                                                    <header class="d-flex align-items-center">
+                                                        <p>Upload Document</p>
+                                                        <div class="alert alert-danger" role="alert">
+                                                            <p>Recommended</p>
+                                                        </div>
+                                                    </header>
+                                                </div>
+                                                <div class="bronze mb-3">
+                                                    <div class="container">
+                                                        <div id="accordion">
+                                                            <div class="card">
+                                                                <div class="card-header" id="headingOne">
+                                                                    <div class="row accordion-toggle" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                                                        <div class="col-md-3">
+                                                                            <img src="images/bronze.svg" alt="Bronze Icon">
+                                                                            <p>Bronze Membership</p>
+                                                                        </div>
+                                                                        <div class="col-md-9">
+                                                                            <p>GMC</p>
+                                                                            <p>Performer's List</p>
+                                                                            <p>Uploaded by Admin From the Database</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+        
+                                                                <div id="collapseFour" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                        <div class="row">
+                                                                            <div class="col-md-6 hr-left">
+                                                                                <div class="upload-item d-flex justify-content-between">
+                                                                                    <div class="upload-text d-flex align-items-center justify-content-center">
+                                                                                        <img src="images/exclaim-icon.png" alt="exclaim-icon">
+                                                                                        <p>GMC</p>
+        
+                                                                                    </div>
+                                                                                    <div class="upload-icon d-flex align-items-center justify-content-center">
+                                                                                        <p>Upload by admin</p>
+                                                                                       
+                                                                                            <img src="images/upload-icon.png" alt="Upload-Icon" data-toggle="modal" data-target="#modelId">
+                                                                                        
+                                                                                        
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="upload-item d-flex justify-content-between">
+                                                                                    <div class="upload-text d-flex align-items-center justify-content-center">
+                                                                                        <img src="images/exclaim-icon.png" alt="exclaim-icon">
+                                                                                        <p>Performance List</p>
+        
+                                                                                    </div>
+                                                                                    <div class="upload-icon d-flex align-items-center justify-content-center">
+                                                                                        <p>Upload by admin</p>
+                                                                                        <img src="images/upload-icon.png" alt="Upload-Icon" data-toggle="modal" data-target="#modelId">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="upload-item d-flex justify-content-between">
+                                                                                    <div class="upload-text d-flex align-items-center justify-content-center">
+                                                                                        <img src="images/exclaim-icon.png" alt="exclaim-icon">
+                                                                                        <p>Photo ID (passport/driving license)
+                                                                                        </p>
+        
+                                                                                    </div>
+                                                                                    <div class="upload-icon d-flex align-items-center">
+        
+                                                                                        <img src="images/upload-icon.png" alt="Upload-Icon" data-toggle="modal" data-target="#modelId">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="upload-item d-flex justify-content-between">
+                                                                                    <div class="upload-text d-flex align-items-center justify-content-center">
+                                                                                        <img src="images/exclaim-icon.png" alt="exclaim-icon">
+                                                                                        <p>CCT / PMETB</p>
+        
+                                                                                    </div>
+                                                                                    <div class="upload-icon d-flex align-items-center justify-content-center">
+        
+                                                                                        <img src="images/upload-icon.png" alt="Upload-Icon" data-toggle="modal" data-target="#modelId">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="upload-item d-flex justify-content-between">
+                                                                                    <div class="upload-text d-flex align-items-center justify-content-center">
+                                                                                        <img src="images/exclaim-icon.png" alt="exclaim-icon" >
+                                                                                        <p>CV</p>
+        
+                                                                                    </div>
+                                                                                    <div class="upload-icon d-flex align-items-center justify-content-center">
+        
+                                                                                        <img src="images/upload-icon.png" alt="Upload-Icon" data-toggle="modal" data-target="#modelId">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="upload-item d-flex justify-content-between">
+                                                                                    <div class="upload-text d-flex align-items-center justify-content-center">
+                                                                                        <img src="images/exclaim-icon.png" alt="exclaim-icon">
+                                                                                        <p>DBS (within 3yr)</p>
+        
+                                                                                    </div>
+                                                                                    <div class="upload-icon d-flex align-items-center justify-content-center">
+        
+                                                                                        <img src="images/upload-icon.png" alt="Upload-Icon" data-toggle="modal" data-target="#modelId">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-6  membership">
+                                                                                <p>Silver Membership means faster and more lucrative,
+                                                                                    bookings, access to instant bookings</p>
+                                                                                <p>It also enables you to become Locum Ready where you
+                                                                                    gain access to an exclusive club
+                                                                                </p>
+                                                                                <p>Surgeries will fill up your diary at the rate you
+                                                                                    like within your preferences and pay your travel
+                                                                                    cost too!</p>
+                                                                            </div>
+                                                                            <div class="upload-file">
+                                                                                <div class="container">
+                                                                                    <div class="row">
+                                                                                        <div class="col-md-6">
+                                                                                            <div class="row">
+                                                                                                <div class="col-md-6">
+                                                                                                    <small>03.04.2018 — Admin says</small>
+                                                                                                    <p>“Missing basic informations,
+                                                                                                        please be more clear writing
+                                                                                                        your work experience and
+                                                                                                        upload again your CV”</p>
+                                                                                                </div>
+                                                                                                <div class="col-md-3">
+                                                                                                    <img src="images/drag-icon.png" alt="Drag Icon" width="100%">
+                                                                                                </div>
+                                                                                                 <div class="col-md-3 upload-images">
+                                                                                                    <img src="images/dropbox.png" alt="Dropbox Icon" width="70%">
+                                                                                                    <img src="images/googledrive.png" alt="googledrive" width="100%">
+                                                                                                    <img src="images/computer-upload.png" alt="Upload From Computer" width="100%">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col-md-6">
+                                                                                            <div class="form-inline">
+                                                                                                <div class="form-group">
+                                                                                                    <label for="" class="mr-2">Ref(1)</label>
+                                                                                                    <input type="text" class="form-control mr-2" name="" id="" aria-describedby="helpId" placeholder="Add Email of Referee 1">
+                                                                                                    <button type="button" class="btn btn-outline-primary mr-2">Send Request</button>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="form-inline mt-3">
+                                                                                                <div class="form-group">
+                                                                                                    <label for="" class="mr-2">Ref(2)</label>
+                                                                                                    <input type="text" class="form-control mr-2" name="" id="" aria-describedby="helpId" placeholder="Add Email of Referee 2">
+                                                                                                    <button type="button" class="btn btn-outline-primary mr-2">Send Request</button>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <p class="addmore">
+                                                                                                <img src="images/add.svg" alt="Add"> Add more referees</p>
+                                                                                        </div>
+                                                                                    </div>
+        
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="uploaded-docs">
+                                                                                <div class="container">
+                                                                                        <div class="row uploaded">
+                                                                                                <div class="col-md-6 uploaded-file-name">
+                                                                                                    <img src="images/check.svg" alt="Check">
+                                                                                                    <p>Hep B</p>
+                                                                                                </div>
+                                                                                                <div class="col-md-6 uploaded-file-icon">
+                                                                                                    <p>Uploaded by admin</p>
+                                                                                                    <img src="images/view-icon.svg" alt="View icon" width="20%">
+                                                                                                    <img src="images/delete-icon.svg" alt="delete-icon" width="20%">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="row uploaded">
+                                                                                                <div class="col-md-6 uploaded-file-name">
+                                                                                                    <img src="images/check.svg" alt="Check">
+                                                                                                    <p>Child Protection Level 3( within 3yrs)</p>
+                                                                                                </div>
+                                                                                                <div class="col-md-6 uploaded-file-icon">
+                                                                                                    <p>Uploaded by admin</p>
+                                                                                                    <img src="images/view-icon.svg" alt="View icon" width="20%">
+                                                                                                    <img src="images/delete-icon.svg" alt="delete-icon" width="20%">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="row uploaded">
+                                                                                                <div class="col-md-6 uploaded-file-name">
+                                                                                                    <img src="images/check.svg" alt="Check">
+                                                                                                    <p>BLS ( within 1yr)</p>
+                                                                                                </div>
+                                                                                                <div class="col-md-6 uploaded-file-icon">
+                                                                                                    <p>Uploaded by admin</p>
+                                                                                                    <img src="images/view-icon.svg" alt="View icon" width="20%">
+                                                                                                    <img src="images/delete-icon.svg" alt="delete-icon" width="20%">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="row uploaded">
+                                                                                                <div class="col-md-6 uploaded-file-name">
+                                                                                                    <img src="images/check.svg" alt="Check">
+                                                                                                    <p>Work Permit if applicable</p>
+                                                                                                </div>
+                                                                                                <div class="col-md-6 uploaded-file-icon">
+                                                                                                    <p>Uploaded by admin</p>
+                                                                                                    <img src="images/view-icon.svg" alt="View icon" width="20%">
+                                                                                                    <img src="images/delete-icon.svg" alt="delete-icon" width="20%">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                </div>
+                                                                                <!--  -->
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+        
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                   
+                                                </div>
+                                                
+                                                <div class="silver">
+                                                    <div class="container">
+                                                            <small class="text-muted mb-3 pb-5">Silver Membership requires a minimum of at least 2 referees, speed up the process by adding more</small>
+                                                        <div id="accordion">
+                                                            <div class="card">
+                                                                <div class="card-header" id="headingOne">
+                                                                    <div class="row accordion-toggle" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                                                        <div class="col-md-3">
+                                                                            <img src="images/silver.svg" alt="Bronze Icon">
+                                                                            <p>Silver Membership</p>
+                                                                        </div>
+                                                                        <div class="col-md-9">
+                                                                           <p> Please allow 24 hours to upgrade once all documents uploaded and references x2 received.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+        
+                                                                <div id="collapseFive" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                        <div class="row">
+                                                                            <div class="col-md-6 hr-left">
+                                                                                <div class="upload-item d-flex justify-content-between">
+                                                                                    <div class="upload-text d-flex align-items-center justify-content-center">
+                                                                                        <img src="images/exclaim-icon.png" alt="exclaim-icon">
+                                                                                        <p>GMC</p>
+        
+                                                                                    </div>
+                                                                                    <div class="upload-icon d-flex align-items-center justify-content-center">
+                                                                                        <p>Upload by admin</p>
+                                                                                        <img src="images/upload-icon.png" alt="Upload-Icon" data-toggle="modal" data-target="#modelId">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="upload-item d-flex justify-content-between">
+                                                                                    <div class="upload-text d-flex align-items-center justify-content-center">
+                                                                                        <img src="images/exclaim-icon.png" alt="exclaim-icon">
+                                                                                        <p>Performance List</p>
+        
+                                                                                    </div>
+                                                                                    <div class="upload-icon d-flex align-items-center justify-content-center">
+                                                                                        <p>Upload by admin</p>
+                                                                                        <img src="images/upload-icon.png" alt="Upload-Icon" data-toggle="modal" data-target="#modelId"> 
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="upload-item d-flex justify-content-between">
+                                                                                    <div class="upload-text d-flex align-items-center justify-content-center">
+                                                                                        <img src="images/exclaim-icon.png" alt="exclaim-icon">
+                                                                                        <p>Photo ID (passport/driving license)
+                                                                                        </p>
+        
+                                                                                    </div>
+                                                                                    <div class="upload-icon d-flex align-items-center">
+        
+                                                                                        <img src="images/upload-icon.png" alt="Upload-Icon" data-toggle="modal" data-target="#modelId">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="upload-item d-flex justify-content-between">
+                                                                                    <div class="upload-text d-flex align-items-center justify-content-center">
+                                                                                        <img src="images/exclaim-icon.png" alt="exclaim-icon">
+                                                                                        <p>CCT / PMETB</p>
+        
+                                                                                    </div>
+                                                                                    <div class="upload-icon d-flex align-items-center justify-content-center">
+        
+                                                                                        <img src="images/upload-icon.png" alt="Upload-Icon">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="upload-item d-flex justify-content-between">
+                                                                                    <div class="upload-text d-flex align-items-center justify-content-center">
+                                                                                        <img src="images/exclaim-icon.png" alt="exclaim-icon">
+                                                                                        <p>CV</p>
+        
+                                                                                    </div>
+                                                                                    <div class="upload-icon d-flex align-items-center justify-content-center">
+        
+                                                                                        <img src="images/upload-icon.png" alt="Upload-Icon" data-toggle="modal" data-target="#modelId">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="upload-item d-flex justify-content-between">
+                                                                                    <div class="upload-text d-flex align-items-center justify-content-center">
+                                                                                        <img src="images/exclaim-icon.png" alt="exclaim-icon">
+                                                                                        <p>DBS (within 3yr)</p>
+        
+                                                                                    </div>
+                                                                                    <div class="upload-icon d-flex align-items-center justify-content-center">
+        
+                                                                                        <img src="images/upload-icon.png" alt="Upload-Icon" data-toggle="modal" data-target="#modelId">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-6 membership">
+                                                                                <p>Silver Membership means faster and more lucrative,
+                                                                                    bookings, access to instant bookings</p>
+                                                                                <p>It also enables you to become Locum Ready where you
+                                                                                    gain access to an exclusive club
+                                                                                </p>
+                                                                                <p>Surgeries will fill up your diary at the rate you
+                                                                                    like within your preferences and pay your travel
+                                                                                    cost too!</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="mt-3"> We will upgrade you within 24 hours</p>
+                                                <div class="d-flex justify-content-end align-items-center mt-3 flex-wrap">
+                                                    <a href="#" class="sw-btn-prev mr-3">Go back</a>
+                                                        <button class="btn btn-primary sw-btn-next" role="button">Complete Registration and Recieve Essential Locum Guide</button>
+                                                </div>
+        
+                                            </form>
+                                   </div>
+                                    <div class="design-bottom mt-5">
+                                        <img src="images/design.svg" alt="Design Bottom" width="100%">
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+       
+        
+        <!-- Modal -->
+        <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                            <h6 class="modal-title" id="modelTitleId">Upload Document</h6>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                        
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <img src="images/dropbox.png" alt="Dropbox" width="20%">
+                            <img src="images/googledrive.png" alt="googledrive" width="20%">
+                            <img src="images/computer-upload.png" alt="Upload from Computer " width="30%">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            $('#exampleModal').on('show.bs.modal', event => {
+                var button = $(event.relatedTarget);
+                var modal = $(this);
+                // Use above variables to manipulate the DOM
+                
+            });
+        </script>
+    </main>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="jquery.smartWizard.js"></script>
+    <script src="jquery.floatinglabel.min.js"></script>
+    
+    <script src="main.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('#smartwizard').smartWizard();
+
+        });
+    </script>
+    <script>
+        $('form.floating-form').floatinglabel({
+            ignoreId: ['ignored']
+
+        });
+
+  
+    </script>
+        
+</body>
+
+</html>

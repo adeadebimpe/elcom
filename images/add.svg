@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>add</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="SIGN-UP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Sign-Up-3-Expand" transform="translate(-763.000000, -1316.000000)" stroke="#0176FF" stroke-width="1.5">
+            <g id="add" transform="translate(764.000000, 1316.000000)">
+                <path d="M14,7.78683181 C14,11.6503116 10.866,14.7822686 7,14.7822686 C3.134,14.7822686 0,11.6503116 0,7.78683181 C0,3.92335202 3.134,0.791395046 7,0.791395046 C10.866,0.791395046 14,3.92335202 14,7.78683181 Z" id="Stroke-111"></path>
+                <path d="M5,7.78683181 L9,7.78683181" id="Stroke-112"></path>
+                <path d="M7,5.78813559 L7,9.78552803" id="Stroke-113"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Bronze</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="SIGN-UP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sign-Up-3-Expand" transform="translate(-338.000000, -1566.000000)">
+            <g id="Invoices" transform="translate(288.000000, 237.000000)">
+                <g id="Group-17-Copy" transform="translate(30.000000, 1314.000000)">
+                    <g id="Bronze" transform="translate(20.000000, 15.000000)">
+                        <circle id="Oval-2" fill="#DCDFEC" cx="13.5" cy="13.5" r="13.5"></circle>
+                        <g id="bronze-badge" transform="translate(4.263158, 4.263158)">
+                            <g>
+                                <ellipse id="Oval-6" stroke="#FFFFFF" stroke-width="0.7" fill="#B9BED2" cx="9.12515115" cy="9.23684211" rx="9.12515115" ry="9.23684211"></ellipse>
+                                <path d="M13.0240539,8.28013196 C12.996755,8.19756607 12.9262695,8.1374534 12.8414548,8.12430666 L10.4136488,7.75071617 L9.33258191,5.40068551 C9.25694832,5.23736548 8.99333831,5.23736548 8.91770473,5.40068551 L7.83663787,7.75071617 L5.4088471,8.12430666 C5.32403239,8.13746889 5.25354696,8.19756607 5.22624798,8.28013196 C5.19894901,8.36269784 5.21954163,8.45365658 5.2795016,8.51603005 L7.04716744,10.3365675 L6.63296242,12.9256862 C6.61886228,13.0134705 6.65555625,13.1017039 6.72717214,13.1529746 C6.79878802,13.2042454 6.89344076,13.2096806 6.96997566,13.1663536 L9.1251586,11.9589283 L11.2803415,13.1663536 C11.3554557,13.2088754 11.4503987,13.2049267 11.5231451,13.1529746 C11.5947609,13.1017039 11.6314549,13.0134705 11.6173548,12.9256862 L11.2031498,10.336583 L12.9708156,8.51604554 C13.0307603,8.45365658 13.0513529,8.36269784 13.0240539,8.28013196 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

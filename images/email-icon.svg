@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="61px" viewBox="0 0 63 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>printer (1) copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="SIGN-UP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sign-Up-2---version-2" transform="translate(-317.000000, -198.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(287.000000, 172.000000)">
+                <g id="Group-4" transform="translate(30.000000, 26.000000)">
+                    <g id="printer-(1)-copy-2">
+                        <path d="M4.14473684,39.1768005 L4.14473684,13.6052632 C4.14473684,12.5006937 5.04016734,11.6052632 6.14473684,11.6052632 L11.7162742,11.6052632 L14.0921053,41.5526316 L4.14473684,39.1768005 Z" id="Shape" fill="#9CCFF9"></path>
+                        <path d="M58.8552632,39.1768005 L58.8552632,13.6052632 C58.8552632,12.5006937 57.9598327,11.6052632 56.8552632,11.6052632 L51.2837258,11.6052632 L48.9078947,41.5526316 L58.8552632,39.1768005 Z" id="Shape" fill="#2574F6"></path>
+                        <g id="Group-3" transform="translate(11.000000, 0.000000)">
+                            <path d="M38.3947368,0 L20.4973936,0 L18.0131579,52.3815789 L40.3947368,49.9089431 L40.3947368,2 C40.3947368,0.8954305 39.4993063,-9.05331799e-16 38.3947368,-2.66453526e-15 Z" id="Shape" fill="#FFDA2D"></path>
+                            <path d="M0.605263158,2 L0.605263158,49.9089431 L20.5,52.3815789 L20.5,0 L2.60526316,0 C1.50069366,2.02906125e-16 0.605263158,0.8954305 0.605263158,2 Z" id="Shape" fill="#FFECA2"></path>
+                        </g>
+                        <g id="Group-2" transform="translate(17.000000, 6.000000)">
+                            <polygon id="Shape" fill="#FF9800" points="27.7001044 4.30859917 27.7001044 0.643779224 14.165747 0.643779224 12.9614737 2.4761892 14.165747 4.30859917"></polygon>
+                            <polygon id="Shape" fill="#FF9800" points="27.7001044 12.1009837 27.7001044 8.43616371 14.165747 8.43616371 12.9614737 10.2685737 14.165747 12.1009837"></polygon>
+                            <rect id="Rectangle-path" fill="#FFDA2D" x="0.472743363" y="8.43604155" width="14.0272566" height="3.66481994"></rect>
+                            <rect id="Rectangle-path" fill="#FFDA2D" x="0.472743363" y="0.643412742" width="14.0272566" height="3.66481994"></rect>
+                        </g>
+                        <path d="M63,19.8947368 L31.4777999,39.8947368 L31.4777999,60.25 L58,60.25 C60.7614237,60.25 63,58.0114237 63,55.25 L63,19.8947368 Z" id="Shape" fill="#9CCFF9"></path>
+                        <path d="M0,19.8947368 L31.5,39.8947368 L31.5,60.25 L5,60.25 C2.23857625,60.25 1.2263553e-15,58.0114237 8.8817842e-16,55.25 L0,19.8947368 Z" id="Rectangle-path" fill="#EBF6FF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
